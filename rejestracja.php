@@ -118,6 +118,7 @@ if(isset($_POST['login_uzytkownika'])){
     <title>Rejestracja</title>
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style_coockie.css">
+    <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
      crossorigin="anonymous"></script>

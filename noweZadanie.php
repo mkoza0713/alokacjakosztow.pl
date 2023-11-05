@@ -41,6 +41,7 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nowe_zadanie</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
     <nav>

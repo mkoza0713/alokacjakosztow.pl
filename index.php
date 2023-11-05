@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="styleStopWath.css">
     <link rel="stylesheet" href="style_coockie.css">
+    <link rel="icon" type="image/png" href="favicon.png">
     <script src="script.js"></script>
 <body>
     <section>

@@ -17,6 +17,7 @@
     <title>Logowanie</title>
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style_coockie.css">
+    <link rel="icon" type="image/png" href="favicon.png">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
      crossorigin="anonymous"></script>
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
