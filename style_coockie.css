@@ -1,0 +1,41 @@
+
+/*************COOCKIES*********/
+.c_permision{
+    width: 80%;
+    /* height: 40px; */
+    height: fit-content;
+    /* position:absolute; */
+    position: fixed;
+    right: 10%;
+    left: 10%;
+    bottom: 0;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+h3{
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(182, 181, 183);
+    padding: 3px;
+}
+
+.c_button {
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: rgb(223, 220, 232);
+    background-color: rgb(29, 29, 29);
+    border-radius: 1px;
+    opacity: 1;
+}
+.c_button:hover{
+    height: 35px;
+}
+
+a{
+    text-decoration: none;
+}

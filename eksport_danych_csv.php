@@ -21,7 +21,9 @@ if($polaczenie1->connect_error!=0){
             $wiersz_zapytania['uzytkownik']."\t".
             $wiersz_zapytania['zadanie']."\t".
             $wiersz_zapytania['klient']."\t".
-            $wiersz_zapytania['czasochlonnosc']."\n";
+            $wiersz_zapytania['czasochlonnosc'].
+            $wiersz_zapytania['uwagi'].
+            "\n";
             fwrite($fp, $wiersz_Zapytania_1);
             }
         fclose($fp);

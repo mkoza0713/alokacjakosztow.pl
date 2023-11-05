@@ -5,7 +5,6 @@ if(!isset($_SESSION['status_logowania'])){
     exit();
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -13,33 +12,42 @@ if(!isset($_SESSION['status_logowania'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikacja</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style_zadanie.css">
+    <link rel="stylesheet" href="style_coockie.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
+     crossorigin="anonymous"></script>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
-        <?php
-        echo '<h1>Witaj '.$_SESSION['db_username'].'</h1>';
-        echo '<h2>Jesteś zarejestrowany w organizacji: '.$_SESSION['db_organization'].'</h2>';
-        ?>
+        <div class = "nav_element">
+            <?php
+                echo '<h3>Witaj '.$_SESSION['db_username'].'</h3>';
+                echo '<h3>Organizacja: '.$_SESSION['db_organization'].'</h3>';
+            ?>
+        </div>
+        <ul class="list0">
+            <li class="list1">
+                Menu
+                <ul class="list1_2">    
+                        <a class="list1_2_element" href="wylogowanie.php">Wyloguj</a>
+                        <a class="list1_2_element" href="index.php">Chronometraż</a>
+                        <a class="list1_2_element" href="ustawienia_konta.php">Ustawienia</a>
+                        <a class="list1_2_element" href="politykaPrywatnosci.php">Polityka prywatności</a>
+                </ul>
+            </li>
+        </ul>
     </nav>
     <div class="centrumStrony">
         <div class="ramka_inputow">
-            <div  class="elementKontenera">
-                <form action="wylogowanie.php" method="post">
-                    <input class="przycisk1" type="submit" value="Wyloguj" name="wyloguj_button">
-                </form>
-            </div>
-            <div  class="elementKontenera">
-                <form action="ustawienia_konta.php" method="post">
-                    <input class="przycisk1" type="submit" value="Ustawienia" name="wyloguj_button">
-                </form>
-            </div>
             <div  class="elementKontenera">
                 <h3>Lista zadań</h3>
             </div>
             <div  class="elementKontenera">
                 <form action="noweZadanie.php" method="post">
-                    <input class="przycisk3" type="submit" value="Nowe zadanie" name="nowe_Zadanie_button">
+                    <input class="przycisk1" type="submit" value="Nowe zadanie" name="nowe_Zadanie_button">
                 </form>
             </div>
         </div>
@@ -48,10 +56,6 @@ if(!isset($_SESSION['status_logowania'])){
     </div>
     <div class="tabelka">
             <table>
-                <thead>
-                    <tr><th>Zadania</th></tr>
-                    <!-- <tr><th>Osoba</th><th>Klient</th><th>Zadanie</th><th>Start</th><th>Uwagi</th></tr>-->
-                </thead>
                 <tbody>                
                     <?php
                         require_once "connect.php";
@@ -103,20 +107,22 @@ if(!isset($_SESSION['status_logowania'])){
                 </tbody>
             </table>
 
-        </div>
-    <footer>
-
-    </footer>
-
-    <div>
     </div>
-    <?php
-
-            if(isset($_SESSION['dodanie_do_bazy'])){
-                echo $_SESSION['dodanie_do_bazy'];
-                unset($_SESSION['dodanie_do_bazy']);
-            }
+    <div class="ramka_inputow">
+        <p>
+            <?php
+                if(isset($_SESSION['dodanie_do_bazy'])){
+                    echo $_SESSION['dodanie_do_bazy'];
+                    unset($_SESSION['dodanie_do_bazy']);
+                }
             ?>
+
+        </p>
+    </div>
+    <footer>
+        <script src="coockiePermision.js"></script>
+
+    </footer>    
     
 </body>
 </html>

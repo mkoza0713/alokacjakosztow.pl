@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['status_logowania'])){
-    header('Location: index.php');
+    header('Location: logowanie.php');
     exit();
 }
 ?>
@@ -12,7 +12,7 @@ if(!isset($_SESSION['status_logowania'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slownik zadan</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <section>
@@ -29,7 +29,7 @@ if(!isset($_SESSION['status_logowania'])){
                         <input  class="przycisk1" type="submit" value="dodaj">
                     </div>
                     <div class="elementKontenera">
-                        <input type="text" name="nowe_zadanie" id="nowe_zadanie_id">
+                        <input  class="c_text_input"  type="text" name="nowe_zadanie" id="nowe_zadanie_id">
                     </div>
                 </form>
                 <div class="elementKontenera">   
@@ -72,7 +72,7 @@ if(!isset($_SESSION['status_logowania'])){
             </div>
         </div>
         <footer>
-            
+            <!-- <script src="coockiePermision.js"></script> -->
         </footer>
     </section>
     

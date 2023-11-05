@@ -40,7 +40,7 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nowe_zadanie</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <nav>
@@ -51,7 +51,7 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
                 <form action="noweZadanieBackend.php" method="post">
                     <div class="elementKontenera">
                         <label for="klient_id">Klient</label><br>
-                        <select name="klient" id="klient_id">
+                        <select  class="c_text_input" name="klient" id="klient_id">
                             <?php
                                 $polaczenie1 = @new mysqli($host, $db_user, $db_password, $db_name);
                                 if($polaczenie1->connect_error!=0){
@@ -70,7 +70,7 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
                     </div>
                     <div class="elementKontenera">
                         <label for="zadanie_id">Zadanie</label><br>
-                        <select name="zadanie" id="zadanie_id">
+                        <select  class="c_text_input" name="zadanie" id="zadanie_id">
                             <?php
                                  $polaczenie2 = @new mysqli($host, $db_user, $db_password, $db_name);
                                  if($polaczenie2->connect_error!=0){
@@ -89,19 +89,19 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
                     </div>
                     <div class="elementKontenera">
                         <label for="uwagi_id">Uwagi</label><br>
-                        <input type="text" name="uwagi" id="uwagi_id" value="<?php echo $_SESSION['uwagi_edit']; ?>">
+                        <input  class="c_text_input" type="text" name="uwagi" id="uwagi_id" value="<?php echo $_SESSION['uwagi_edit']; ?>">
                     </div>
                     <div class="elementKontenera">
                          <label for="data_zgloszenia_id">Data zgłoszenia</label><br>
-                        <input type="date" name="data_zgloszenia" id="data_zgloszenia_id" value="<?php echo $_SESSION['data_edit']; ?>">
+                        <input class="c_text_input" type="date" name="data_zgloszenia" id="data_zgloszenia_id" value="<?php echo $_SESSION['data_edit']; ?>">
                     </div>
                     <div class="elementKontenera">
                         <label for="czas_start_id">Czas start</label><br>
-                        <input type="time" name="czas_start" id="czas_start_id" value="<?php echo $_SESSION['czas_start_edit']; ?>">
+                        <input class="c_text_input" type="time" name="czas_start" id="czas_start_id" value="<?php echo $_SESSION['czas_start_edit']; ?>">
                     </div>
                     <div class="elementKontenera">
                         <label for="czas_stop_id">Czas stop</label><br>
-                        <input type="time" name="czas_stop" id="czas_stop_id" value="<?php echo date("H:i"); ?>">
+                        <input class="c_text_input" type="time" name="czas_stop" id="czas_stop_id" value="<?php echo date("H:i"); ?>">
                     </div>
                     <div class="elementKontenera">
                         <label for="zamknac_zadanie_id">Zakończ zadanie</label><br>
@@ -111,7 +111,7 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
                         <input class="przycisk1" type="submit" value="<?php echo $_SESSION['przycisk_tresc'];?>"><br><br>
                     </div>
                     <div class="elementKontenera">
-                        <a href="index.php"><input class="przycisk1" type="button" value="POWROT"></a>
+                        <a href="logowanie.php"><input class="przycisk1" type="button" value="POWRÓT"></a>
                     </div>
                     <?php
                         if(isset($_SESSION['blad_formularza'])){
@@ -130,7 +130,7 @@ if(isset($_POST['wiadomosc_edycja_wartosci'])){
             
     </div>
     <footer>
-
+            <!-- <script src="coockiePermision.js"></script> -->
     </footer>
     
     

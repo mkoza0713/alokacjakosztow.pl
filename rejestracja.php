@@ -42,8 +42,8 @@ if(isset($_POST['login_uzytkownika'])){
     $sprawdz = file_get_contents('https://google.com/recaptcha/api/siteverify?secret='
     .$secret_key_recaptcha.'&response='
     .$_POST['g-recaptcha-response']);
-
     $opowiedz = json_decode($sprawdz);
+    
     if($opowiedz->success==false){
         $poprawne_dane_formularza=false;
         $_SESSION['e_haslo2']='<span style="color:red"><br>Blad re-captcha</span><br>';
@@ -96,7 +96,7 @@ if(isset($_POST['login_uzytkownika'])){
                     echo "Zapytanie poprawne";
                     $_SESSION['udana_rejestracja']='<div class="elementKontenera">
                     <br>Rejestracja udana</div><br>';
-                    header('Location: index.php');
+                    header('Location: logowanie.php');
                 }
                 else{
                     echo "Blad zapytania do bazy";
@@ -116,9 +116,13 @@ if(isset($_POST['login_uzytkownika'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rejestracja</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style_coockie.css">
     <script src="https://www.google.com/recaptcha/api.js"></script>
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
+     crossorigin="anonymous"></script>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <section>
@@ -132,7 +136,7 @@ if(isset($_POST['login_uzytkownika'])){
                             <h3>Zarejestruj</h3>
                         </div>
                         <div class="elementKontenera">
-                            <input type="text" name="organizacja" id="organizacja_id" placeholder="Organizacja"><br>
+                            <input type="text" class="c_text_input" name="organizacja" id="organizacja_id" placeholder="Organizacja"><br>
                             <?php 
                             if(isset($_SESSION['e_organizacja'])){
                                 echo $_SESSION['e_organizacja'];
@@ -141,7 +145,7 @@ if(isset($_POST['login_uzytkownika'])){
                                 ?>
                         </div>
                         <div class="elementKontenera">
-                            <input type="text" name="login_uzytkownika" id="login_uzytkownika_id" placeholder="login"><br>
+                            <input type="text" class="c_text_input" name="login_uzytkownika" id="login_uzytkownika_id" placeholder="login"><br>
                             <?php 
                             if(isset($_SESSION['e_login'])){
                                 echo $_SESSION['e_login'];
@@ -150,7 +154,7 @@ if(isset($_POST['login_uzytkownika'])){
                                 ?>
                         </div>
                         <div class="elementKontenera">
-                            <input type="text" name="email_uzytkownika" id="email_uzytkownika_id" placeholder="email"><br>
+                            <input type="text" class="c_text_input" name="email_uzytkownika" id="email_uzytkownika_id" placeholder="email"><br>
                             <?php 
                             if(isset($_SESSION['e_email'])){
                                 echo $_SESSION['e_email'];
@@ -159,7 +163,7 @@ if(isset($_POST['login_uzytkownika'])){
                                 ?>
                         </div>
                         <div class="elementKontenera">
-                            <input type="text" name="haslo_uzytkonika_1" id="haslo_uzytkownika_1" placeholder="haslo"><br>
+                            <input type="text" class="c_text_input" name="haslo_uzytkonika_1" id="haslo_uzytkownika_1" placeholder="haslo"><br>
                             <?php 
                             if(isset($_SESSION['e_haslo1'])){
                                 echo $_SESSION['e_haslo1'];
@@ -168,7 +172,7 @@ if(isset($_POST['login_uzytkownika'])){
                                 ?>
                         </div>
                         <div class="elementKontenera">
-                            <input type="text" name="haslo_uzytkonika_2" id="haslo_uzytkownika_2" placeholder="powtórz hasło"><br>
+                            <input type="text" class="c_text_input" name="haslo_uzytkonika_2" id="haslo_uzytkownika_2" placeholder="powtórz hasło"><br>
                             <?php 
                             if(isset($_SESSION['e_haslo2'])){
                                 echo $_SESSION['e_haslo2'];
@@ -182,7 +186,7 @@ if(isset($_POST['login_uzytkownika'])){
                         <div class="elementKontenera">
                             <input  class="przycisk1" type="submit" value="Zarejestruj się"><br><br>
 
-                            <a href=index.php><input  class="przycisk1"  type="button" value="POWRÓT"></a><br>
+                            <a href=logowanie.php><input  class="przycisk1"  type="button" value="POWRÓT"></a><br>
                         </div>
                         <div class="elementKontenera">
                             <?php
@@ -201,7 +205,7 @@ if(isset($_POST['login_uzytkownika'])){
                 </div>
         </div>
         <footer>
-            
+            <script src="coockiePermision.js"></script>
         </footer>
     </section>
 

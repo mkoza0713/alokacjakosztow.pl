@@ -10,15 +10,29 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ustawienia_konta</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <nav>
-        <div class="nazwa_strony">
+        <div class = "nav_element">
             <?php
-            echo '<h1>Witaj '.$_SESSION['db_username'].'</h1>';
+                echo '<h3>Witaj '.$_SESSION['db_username'].'</h3>';
+                echo '<h3>Organizacja: '.$_SESSION['db_organization'].'</h3>';
             ?>
         </div>
+        <ul class="list0">
+            <li class="list1">
+                Menu
+                <ul class="list1_2">    
+                        <a class="list1_2_element" href="wylogowanie.php">Wyloguj</a>
+                        <a class="list1_2_element" href="index.php">Chronometraż</a>
+                        <a class="list1_2_element" href="ustawienia_konta.php">Ustawienia</a>
+                        <a class="list1_2_element" href="politykaPrywatnosci.php">Polityka prywatności</a>
+                        <a class="list1_2_element" href="kontakt.php">Kontakt</a>
+
+                </ul>
+            </li>
+        </ul>
     </nav>
         <div class="centrumStrony">
             <div class="ramka_inputow">
@@ -27,13 +41,13 @@ session_start();
                 </div>
                 <form method="post" action="zmiana_hasla.php">
                     <div  class="elementKontenera">
-                        <input type="password" name="aktualne_haslo" id="aktualne_haslo" placeholder="wpisz aktualne hasło"><br>
+                        <input class="c_text_input" type="password" name="aktualne_haslo" id="aktualne_haslo" placeholder="wpisz aktualne hasło"><br>
                     </div>
                     <div  class="elementKontenera">
-                        <input type="text" name="nowe_haslo1" id="nowe_haslo_1" placeholder="wpisz nowe hasło"><br>
+                        <input class="c_text_input" type="text" name="nowe_haslo1" id="nowe_haslo_1" placeholder="wpisz nowe hasło"><br>
                     </div>
                     <div  class="elementKontenera">
-                        <input type="text" name="nowe_haslo2" id="nowe_haslo_2" placeholder="wpisz ponownie hasło"><br>
+                        <input class="c_text_input" type="text" name="nowe_haslo2" id="nowe_haslo_2" placeholder="wpisz ponownie hasło"><br>
                     </div>
                     <div class="elementKontenera">
                         <input class="przycisk1" type="submit" value="Zmien haslo"><br>
@@ -68,7 +82,7 @@ session_start();
                 </form>
                 <br><br>
                     <div class="elementKontenera">
-                        <a href=index.php><input class="przycisk1" type="button" value="POWRÓT"></a><br>
+                        <a href=logowanie.php><input class="przycisk1" type="button" value="POWRÓT"></a><br>
                     </div>
 
 

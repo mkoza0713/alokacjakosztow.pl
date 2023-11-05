@@ -14,7 +14,7 @@ section {
 }
 /*****************/
 nav {
-    background-color: rgb(133, 172, 243);
+    background-color: rgb(173, 201, 252);
     /* height: 80px; */
     height: fit-content;
     margin-left: auto;
@@ -172,5 +172,43 @@ th {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+}
+
+
+
+/*************COOCKIES*********/
+.c_permision{
+    width: 80%;
+    /* height: 40px; */
+    height: fit-content;
+    /* position:absolute; */
+    position: fixed;
+    right: 10%;
+    left: 10%;
+    bottom: 0;
+    background-color:  rgb(154, 195, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+h3{
+    font-size: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(246, 245, 248);
+    padding: 3px;
+}
+
+.c_button {
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: rgb(223, 220, 232);
+    background-color: rgb(27, 86, 174);
+    border-radius: 1px;
+}
+.c_button:hover{
+    height: 35px;
 }
 

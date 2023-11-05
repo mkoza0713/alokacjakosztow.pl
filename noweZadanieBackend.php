@@ -51,21 +51,18 @@
                 ,'$czas_start','$czas_stop',$czas_trwania_zadania,'$status_zadania')";
             }
             if($wynik_zapytania5 = $polaczenie3->query($zapytanieSql4)){
-                $_SESSION['dodanie_do_bazy']='<span style="color:black">
-                <br>Dodano do bazy</span><br>';
+                $_SESSION['dodanie_do_bazy']='<br>Dodano do bazy</span><br>';
                 header('Location:aplikacja.php');
             }
             else{
-                $_SESSION['dodanie_do_bazy']='<span style="color:red">
-                <br>Nie dodano do bazy</span><br>';
+                $_SESSION['dodanie_do_bazy']='<br>Nie dodano do bazy</span><br>';
                 header('Location:aplikacja.php');
             }
         }
         $polaczenie3->close();
 
     }else{
-        $_SESSION['blad_formularza']='<span style="color:red">
-        <br>Blad formularza</span><br>';
+        $_SESSION['blad_formularza']='<br>Blad formularza</span><br>';
         header('Location:noweZadanie.php');
     }
 

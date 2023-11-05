@@ -1,0 +1,48 @@
+.tabelka{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.kafelek{
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 37, 37);
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kafelek_1_1{
+    font-weight: bolder;
+}
+.przycisk4{
+    width: 220px;
+    display: block;
+    text-align: left;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 37, 37);
+    border: none;
+    padding: 2px;
+}
+.kafelek_2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.kafelek_2_1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.przycisk2{
+    border: none;
+    width: 68px;
+    height: 20px
+}
+.przycisk2:hover{
+    background-color: rgb(95, 95, 95);
+}
