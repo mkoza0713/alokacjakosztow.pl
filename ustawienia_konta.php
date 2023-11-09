@@ -11,6 +11,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ustawienia_konta</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
     <nav>
@@ -28,7 +29,6 @@ session_start();
                         <a class="list1_2_element" href="index.php">Chronometraż</a>
                         <a class="list1_2_element" href="ustawienia_konta.php">Ustawienia</a>
                         <a class="list1_2_element" href="politykaPrywatnosci.php">Polityka prywatności</a>
-                        <a class="list1_2_element" href="kontakt.php">Kontakt</a>
 
                 </ul>
             </li>

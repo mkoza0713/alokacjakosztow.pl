@@ -122,8 +122,6 @@ if(isset($_POST['login_uzytkownika'])){
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
      crossorigin="anonymous"></script>
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
-     crossorigin="anonymous"></script>
 </head>
 <body>
     <section>

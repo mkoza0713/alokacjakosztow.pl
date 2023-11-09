@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style_coockie.css">
     <link rel="icon" type="image/png" href="favicon.png">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
-     crossorigin="anonymous"></script>
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
      crossorigin="anonymous"></script>
 </head>
@@ -69,27 +67,77 @@
             }
             ?>
             <div class="ramka_inputow">
-                 <h1>Jak działa alokacja kosztów</h1>
+                 <h1>Co to jest alokacja kosztów?</h1>
                  <p>
-                    Alokacja kosztów jest to aplikajca do rejestracji czasu pracy z podziałem na zadania
-                    oraz klientów.
-                    Działanie opiera się na logowaniu użytkowników i tworzeniu zadań z rejestradcją czasu rozpoczęcia 
-                    zadania. Po utworzeniu zadania, w panelu pojawia się kafelek danego użytkownika. Użytkownik może rozpocząć kilka zadań na raz. Na danym kafelku znajduje się przycisk "zamknij" który zapisuje dane o zakończeniu
-                    zadania. Następuje rejestracja parametrów w bazie danych.
+                 Alokacja kosztów to proces przypisywania kosztów lub wydatków do konkretnych działów, 
+                 produktów, projektów lub innych jednostek organizacyjnych w celu monitorowania i zarządzania nimi. 
+                 Jest to ważny element rachunkowości zarządczej i rachunkowości kosztów, który pomaga przedsiębiorstwom 
+                 śledzić, jakie koszty są związane z różnymi obszarami działalności i jakie produkty lub usługi generują 
+                 te koszty.
+                 </p>
+                 <img src="images/screen4.png" alt="screen4.png">
+                 <p>Alokacja kosztów może obejmować różne metody i techniki, w zależności od potrzeb i charakterystyki przedsiębiorstwa. 
+                    Przykładem takiej metody jest pomiar czasu poświeconego dla danego klienta, wraz z zadaniami jakie były wykonywane np.
+                    wycena, przygotowanie dokumentów, przygotowanie wysyłki itd. 
+                </p>
+                <p>
+                Alokacja kosztów ma na celu umożliwienie przedsiębiorstwom dokładnego monitorowania kosztów, ocenę rentowności różnych 
+                projektów lub produktów, podejmowanie decyzji zarządczych i określanie cen produktów. Jest to również istotne narzędzie w 
+                procesie budżetowania i oceny wydajności firmy. Warto zaznaczyć, że dokładność alokacji kosztów jest kluczowa dla podejmowania 
+                mądrych decyzji zarządczych.
+                </p>
+
+                 <h2>Po co rejestracja czasu pracy?</h2>
+                 <p>
+                 Rejestracja czasu pracy to proces dokumentowania i śledzenia czasu, który pracownicy spędzają na wykonywaniu swoich 
+                 obowiązków w ramach zatrudnienia. Jest to ważne narzędzie zarządzania zasobami ludzkimi i kontrolowania czasu pracy pracowników. 
+                 Rejestracja czasu pracy może być wykorzystywana w różnych celach, w tym do naliczania płac, monitorowania wydajności, 
+                 zarządzania projektami, planowania zasobów, a także w celu spełnienia wymagań prawnych związanych z regulacjami dotyczącymi 
+                 czasu pracy.
+                 </p>
+                 <img src="images/screen5.png" alt="screen5.png">
+
+                 <h2>Śledzenie czasu pracy oraz nadzór nad pracownikami, zapewnia aplikacja alokacjakosztow.pl</h2>
+                 <p>Jest to aplickacja przeglądarkowa, stworzona właśnie po to aby w bardzo prosty sposób zarządzać działem lub zasobami
+                    ludzkimi. Największym plusem jest fakt, że jest dostępna z każdego miesjac na ziemi, gdzie mamy dostęp do internetu
+                 </p>
+                 <h4>Jedyną czynnością jaką należy wykonać jest zarejestrowanie się poprzez <a href="rejestracja.php">formularz</a>.</h3>
+                 <p>Podczas rejestracji należy podać oragnizację w jakiej będą jej członkowie. Wszystkie osoby w danej organizacji widzą 
+                    się wzajemnie!
+                 </p>
+                 <img src="images/screen6.png" alt="screen6.png">
+                 <h2>Obsługa jest prosta i intuicyjna!</h2>
+                 <p>Sam panel składa się tak na prawdę z zadań, które rozpoczęli pracownicy - każde z nich jest oddzielnym kafelkeim
+                na którym są dane o zadaniu jakie wykonuje.
+                 </p>
+                 <img src="images/screen7.png" alt="screen7.png">
+                 <h4>Ale po kolei...</h4>
+                 <p>Po zarejestrowaniu musimy stworzyć słowniki zadań oraz klientów jakie mogą obsługiwać pracownicy. Listy te są w zakładce
+                    MENU->USTAWIENIA. Słowniki są tworzone jednorozowo dla wszystkich w oraganizacji, nie ma potrzeby tworzyć każdy słownik z 
+                    osobna!
                  </p>
                  <p>
-                    Podczas rejestrcji wymagane jest podanie organizacji w jakiej będzie zarejestrowany użytkownik.
-                    Organizacja to zbiór użytkowników np. organizacja_PLANOWANIE. W danej organizacji użytkownicy
-                    widzą się wzajemnie. 
+                    Po utworzeniu słowników można rozpocząć pierwsze zadanie!
                  </p>
+                 <img src="images/screen8.png" alt="screen8.png"><br>
+                 <img src="images/screen9.png" alt="screen9.png">
+                 
+                 <h4>To wszystko.</h4>
                  <p>
-                    Dane zapisane w bazie danych można wyeksportować do pliku .xls celem dalszej analizy.
+                    Dane wprowadzone są już w bazie danych, do której masz dostęp poprzez zakłdadkę MENU->USTAWIENIA->EKSPORT.
+                    Dane można dowolnie obrabiać, generując podsumowanie okresowej pracy oraz kontrolę czasu pracy. 
                  </p>
-                 <p>
-                    Analiza pozwala na obliczanie czasu poświęconego dla danego klienta i na dane zadanie. Opracowanaie danych jest dowolne.
-                    Dane reprezentowane służą do pomocy w podziale klientów oraz zadań, balansowaniu obciążeń itp.
-                    Dodatkowo organizacja ma możliwośc rejestrować czas pracy danego pracownika.
-                 </p>
+                 <h2>Podsuumowując</h2>
+                 <P>Alokowanie kosztó od dziś nie jest już taką zmorą jak do tej pory. Dane sa przejrzyste i nie zawierają niepotrzebnych rzeczy oraz są bardzo dokładne!
+                        Jest to jedna z niewielu darmowych aplikacji oferujących takie możliwości. Rejestrując się oraz korzystając z alokacjakosztow.pl otrzymujemy:<br>
+                        1. Prosty system mini-CMS,<br>
+                        2. Prosty system rejestracji czasu pracy,<br>
+                        3. Możliwość szybkiego podsumowania projektu/klienta/zadań,<br>
+                        4. Możliwość elastycznego zarządzania zespołem poprzez przydzielanie odpowiednije liczby osoób do projektów,<br>
+                        5. Szybki dostęp do danych,<br>
+                 </P>
+                <a href="#top">Powrót do góry strony</a>  
+
             </div>
         </div>
 

@@ -8,12 +8,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="stoper - chronometraż z zapisem do pliku oraz mini cms do alokowania kosztów">
+    <meta name="keywords" content="stoper, chronometraż, chronometr, alokacja kosztów, alokowanie, mini-cms, stoper z zapisem">
+    <meta name="author" content="Mateusz Koza">
     <title>Stoper</title>
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="styleStopWath.css">
     <link rel="stylesheet" href="style_coockie.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="script.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
+     crossorigin="anonymous"></script>
 <body>
     <section>
         <nav>
@@ -29,8 +34,6 @@
                             }                
                             ?> </a>
                             <a class="list1_2_element" href="politykaPrywatnosci.php">Polityka prywatności</a>
-                            <a class="list1_2_element" href="kontakt.php">Kontakt</a>
-
                     </ul>
                 </li>
             </ul>
@@ -61,38 +64,92 @@
             </form>
 
             <div class="ramka_inputow">
-                 <h1>Jak działa stoper - chronometraż</h1>
-                 <p>Chronometraż to aplikacja służąca do pomiaru czasu pracy wykonywanej
-                    czynności, podzielonej na poszczególne kroki. Czas każdego z kroków 
-                    można opisać za pomocą pola uwaga. 
-                    Tak skonstruowanu układ można zapisać do pliku .xls celem dalszej obróbki.
-                 </p>
-                 <p>
-                    Lista pomiarów służy do opracowania wykresów oraz czasochłonności poszczególnych
-                    zadań. Dostarczone w ten sposób dane są niezastąpionym źródłem do analiz
-                    czasu dodającego wartość oraz czasu marnotrawioneg na przygotowania. Opisane kroki
-                    z największą liczbą powtórzeń można przedstawić za pomocą wykresu Pareto (diagramu Pareto).
-                    Diagram przedstawia najwiekszy udział każdego ze zmierzonych zadań. Tak przygotowane
-                    dane są podstawą do analizy czynności, które nalezy optymalizować.
-                 </p>
-                 <p>
-                    Najważniejsze zalety chronometrażu to:<br>
-                        1. Optymalizacja czasu etapów,<br>
-                        2. Optymalizacja czasów przezbrojeń,<br>
-                        3. Optymalizacja czasów przygotowań,<br>
-                        4. Optymalizacja i pomiar czasów kroków produkcyjnych,<br>
-                        5. Redukcja marnotrawstwa,<br>
-                        6. Pomiary taktów produkcyjnych,<br>
-                        7. Tworzenie wykresów Pareto,<br>
-                        8. Tworzenie analiz marsruty produkcyjnej,<br>
-                        9. Analiza wąskich gardeł,<br>
-                        10. Operacje związane z wycenami oraz estymacjami produkcyjnymi.<br>
+                
+                <a href="instrukcja.php"><h1>Czym jest chronometraż?</h1></a>
+                        <p>Chronometraż to proces pomiaru i rejestracji czasu trwania 
+                            określonych wydarzeń, działań lub zjawisk. Jest to technika 
+                            stosowana w wielu dziedzinach życia, w tym w sporcie, przemyśle, 
+                            nauce, nawigacji i wielu innych. Celem chronometrażu jest uzyskanie 
+                            dokładnych pomiarów czasu, które mogą być używane do różnych celów, 
+                            takich jak monitorowanie wydajności, kontrola jakości, analiza wyników 
+                            czy efektywne zarządzanie czasem. Istnieje wiele narzędzi i technologii 
+                            wykorzystywanych w chronometrażu, w tym stopery, zegary, systemy monitorowania 
+                            czasu, oprogramowanie i wiele innych.
+                        </p>
+                        <img src="images/screen3.png" alt="screen3">
+                        <br><br>
 
-                 </p>
+                    <h1>Jak działa stoper - chronometraż?</h1>
+                    <p>
+                        Stoper to narzędzie służące do pomiaru czasu, a jego działanie zazwyczaj 
+                        opiera się na prostych mechanizmach, zarówno w wersjach tradycyjnych 
+                        (mechanicznych) jak i cyfrowych. Działa on na zasadzie dokładnego 
+                        śledzenia upływu czasu, umożliwiając użytkownikowi rejestrowanie i 
+                        kontrolowanie czasu w sposób precyzyjny.
+                        Chronometraż to aplikacja służąca do pomiaru czasu pracy wykonywanej
+                        czynności, podzielonej na poszczególne kroki. 
+                        Poza klasycznym działaniem stopera, chronometraż oferuje dopisanie 
+                        uwag do każdego z pomiarów.Taka uwaga jest cennym źródłem informacji dla
+                        osoby mierzącej czas.
+                    </p>
+                    <img src="images/screen1.png" alt="screen1">
+                    <p>
+                        Na rysunku przedstawiono zrzut ekranu z wykorzystaniem chronometrażu. Każdy z wyżej 
+                                wymienionych wyników pojawi się w wyeksportowanej analizie z pomiarami czasu.
+                    </p>
+                    <br><br>
+
+                    
+                    <h2>Jak można wykorzystać wyniki pomiarów?</h2>
+                    <p>
+                        Lista pomiarów służy do opracowania wykresów oraz czasochłonności poszczególnych
+                        zadań. Dostarczone w ten sposób dane są niezastąpionym źródłem do analiz
+                        czasu dodającego wartość oraz czasu marnotrawionego na przygotowania. Opisane kroki
+                        z największą liczbą powtórzeń można przedstawić za pomocą wykresu Pareto (diagramu Pareto).
+                        Diagram przedstawia największy udział każdego ze zmierzonych zadań. Tak przygotowane
+                        dane są podstawą do analizy czynności, które należy optymalizować.
+                    </p>
+                    <img src="images/screen2.png" alt="screen2">
+
+
+                    <br><br>
+                    <h2>Dlaczego stosować chronometraż?</h2>
+                    <p>
+                        Pomiar czasu odgrywa kluczową rolę w przemyśle, pomagając w kontrolowaniu procesów 
+                        produkcyjnych,zoptymalizacji wydajności i zapewnieniu jakości produktów
+                    </p>
+                    <p>
+                    Najważniejsze zalety chronometrażu to: <br>
+                    - Kontrola czasu produkcji,
+                    - Zarządzanie procesami,
+                    - Kontrola jakości,
+                    - Optymalizacja wydajności,
+                    - Monitorowanie czasu pracy,
+                    - Zarządzanie przerwami,
+                    - Testy i kontrole,
+                    - Zarządzanie zasobami,
+                    - Planowanie konserwacji i przeglądów,
+                    - Zarządzanie projektami,
+                    </p>        
+                    <p>
+                    Warto podkreślić, że stoper może być dostosowany do 
+                    konkretnych potrzeb przemysłu i branży. Korzystanie 
+                    z takich narzędzi pozwala na lepszą kontrolę nad czasem, 
+                    optymalizację procesów produkcyjnych oraz poprawę wydajności 
+                    i jakości produkcji.
+                    </p>   
+
+
+                    <br><br>
+                    <h2>Jeśli sam stoper nie wystarcza, wtedy użyj aplikacji do rejestrowania
+                        zadań!
+                    </h2>
+                    <a href="logowanie.php"><h2>Wypróbuj aplikację do alokowania kosztów!</h2></a>
             </div>
 
         </div>
         <footer>
+            <a href="#top">Powrót do góry strony</a>  
             <script src="coockiePermision.js"></script>
         </footer>
     </section>

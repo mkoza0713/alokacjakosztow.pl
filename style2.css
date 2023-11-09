@@ -142,3 +142,33 @@ h3{
     background-color: #c2c2c2;
 }
 
+img {
+    max-width: 350px;
+}
+@media all and (max-width: 1930px){
+    img {
+        width: 350px;
+    }
+}
+@media all and (max-width: 990px){
+    img {
+        width: 260px;
+    }
+}
+@media all and (max-width: 650px){
+    img {
+        width: 200px;
+    }
+}
+
+
+
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 14);
+}
+h1{
+    font-size: 20px;
+}
