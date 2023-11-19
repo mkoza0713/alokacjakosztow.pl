@@ -99,7 +99,7 @@
 
                  <h2>Śledzenie czasu pracy oraz nadzór nad pracownikami, zapewnia aplikacja alokacjakosztow.pl</h2>
                  <p>Jest to aplickacja przeglądarkowa, stworzona właśnie po to aby w bardzo prosty sposób zarządzać działem lub zasobami
-                    ludzkimi. Największym plusem jest fakt, że jest dostępna z każdego miesjac na ziemi, gdzie mamy dostęp do internetu
+                    ludzkimi. Największym plusem jest fakt, że jest dostępna z każdego miejsca na ziemi, gdzie mamy dostęp do internetu.
                  </p>
                  <h4>Jedyną czynnością jaką należy wykonać jest zarejestrowanie się poprzez <a href="rejestracja.php">formularz</a>.</h3>
                  <p>Podczas rejestracji należy podać oragnizację w jakiej będą jej członkowie. Wszystkie osoby w danej organizacji widzą 
@@ -128,7 +128,7 @@
                     Dane można dowolnie obrabiać, generując podsumowanie okresowej pracy oraz kontrolę czasu pracy. 
                  </p>
                  <h2>Podsuumowując</h2>
-                 <P>Alokowanie kosztó od dziś nie jest już taką zmorą jak do tej pory. Dane sa przejrzyste i nie zawierają niepotrzebnych rzeczy oraz są bardzo dokładne!
+                 <P>Dane sa przejrzyste i nie zawierają niepotrzebnych rzeczy oraz są bardzo dokładne!
                         Jest to jedna z niewielu darmowych aplikacji oferujących takie możliwości. Rejestrując się oraz korzystając z alokacjakosztow.pl otrzymujemy:<br>
                         1. Prosty system mini-CMS,<br>
                         2. Prosty system rejestracji czasu pracy,<br>
