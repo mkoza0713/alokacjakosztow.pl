@@ -64,8 +64,12 @@
 
         </div>
         <footer>
-            <a href="#top">Powrót do góry strony</a> <br>
-            <a href="index.php">Powrót na stronę główną</a>  
+            <a href="#top">
+                <button class="stopwatch_button2">Powrót do góry strony</button>
+            </a> 
+            <a href="index.php">
+                <button class="stopwatch_button2">Powrót na stronę główną</button>
+            </a> 
             <script src="coockiePermision.js"></script>
         </footer>
     </section>

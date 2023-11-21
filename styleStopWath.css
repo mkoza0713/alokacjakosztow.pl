@@ -23,12 +23,24 @@
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
-.table_class{
+/* .table_class{
+    width: 60%;
+    margin-top: 50px;
+} */
+/* .table_class{
     width: auto;
     border: none;
     font-size: 15px;
-}
+} */
 
 .table_footer{
     display: flex;
@@ -41,7 +53,7 @@
     border: none;
     text-align: center;
     font-size: 15px;
-    width: 60px;
+    width:100px;
 }
 .td_stopwatch2{
     text-align: center;
@@ -64,18 +76,3 @@
 
 
 /******************************************************************/
-
-.lap_list{
-    width: 40%;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.table_class{
-    width: 60%;
-    margin-top: 50px;
-}

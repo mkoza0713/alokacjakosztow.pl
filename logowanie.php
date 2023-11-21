@@ -127,7 +127,7 @@
                     Dane wprowadzone są już w bazie danych, do której masz dostęp poprzez zakłdadkę MENU->USTAWIENIA->EKSPORT.
                     Dane można dowolnie obrabiać, generując podsumowanie okresowej pracy oraz kontrolę czasu pracy. 
                  </p>
-                 <h2>Podsuumowując</h2>
+                 <h2>Podsumowując</h2>
                  <P>Dane sa przejrzyste i nie zawierają niepotrzebnych rzeczy oraz są bardzo dokładne!
                         Jest to jedna z niewielu darmowych aplikacji oferujących takie możliwości. Rejestrując się oraz korzystając z alokacjakosztow.pl otrzymujemy:<br>
                         1. Prosty system mini-CMS,<br>
@@ -136,12 +136,14 @@
                         4. Możliwość elastycznego zarządzania zespołem poprzez przydzielanie odpowiednije liczby osoób do projektów,<br>
                         5. Szybki dostęp do danych,<br>
                  </P>
-                <a href="#top">Powrót do góry strony</a>  
 
             </div>
         </div>
 
         <footer>
+            <a href="#top">
+                <button class="stopwatch_button2">Powrót do góry strony</button>
+            </a>  
             <script src="coockiePermision.js"></script>
         </footer>
     </section>

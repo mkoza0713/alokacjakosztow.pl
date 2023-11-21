@@ -152,8 +152,8 @@
                     </p>
                     <p>
                         Jeżeli sama analiza potrzebna jest do normowania pracy, ważna jest systematyka w pomiarach oraz zmienne warunki na stanowisku.
-                        Musi to być odwzorowanie procesu i jego problemów. Im większa liczba liczba wystąpień tym mniejsze ryzyku na popełnienie błędu.
-                        Mniejsze ryzyku to mniejsza niedokładność pomiarowa.   
+                        Musi to być odwzorowanie procesu i jego problemów. Im większa liczba liczba wystąpień tym mniejsze ryzyko na popełnienie błędu.
+                        Mniejsze ryzyko to mniejsza niedokładność pomiarowa.   
                     </p>
                     <p>
                     Najważniejsze zalety chronometrażu to: <br>
@@ -179,7 +179,9 @@
 
         </div>
         <footer>
-            <a href="#top">Powrót do góry strony</a>  
+            <a href="#top">
+                <button class="stopwatch_button2">Powrót do góry strony</button>
+            </a>  
             <script src="coockiePermision.js"></script>
         </footer>
     </section>
