@@ -9,7 +9,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="stoper - chronometraż z zapisem do pliku oraz mini cms do alokowania kosztów">
-    <meta name="keywords" content="stoper, chronometraż, chronometr, alokacja kosztów, alokowanie, mini-cms, stoper z zapisem">
+    <meta name="keywords" content="stoper, chronometraż, chronometr, alokacja kosztów, 
+    alokowanie, mini-cms, stoper z zapisem, chronometer, plik, chronometr z plikiem, stoper z zapisem do pliku, stoper z plikiem">
     <meta name="author" content="Mateusz Koza">
     <title>Stoper</title>
     <link rel="stylesheet" href="style2.css">
@@ -76,19 +77,19 @@
                             wykorzystywanych w chronometrażu, w tym stopery, zegary, systemy monitorowania 
                             czasu, oprogramowanie i wiele innych. 
                             Istotnym jest wychwytywanie dużej ilości szczegółów podczas przeprowadzanych badań. Większa liczba
-                            danych pozwala szerzej popatrzeć na problem.
+                            danych pozwala na szerszą analizę problemu.
                         </p>
                         <img src="images/screen3.png" alt="screen3">
                         <br><br>
 
                     <h1>Jak działa stoper - chronometraż?</h1>
                     <p>
-                        Stoper to narzędzie służące do pomiaru czasu, a zasada działania opiera się niezależnie od rodzaju stopera,
+                        Stoper to narzędzie służące do pomiaru czasu a zasada działania opiera się niezależnie od rodzaju stopera,
                         od rozpoczęcia pomiaru. Następuje albo uruchomienie zegara - tak przy wersjach tradycyjnych jak i cyfrowych,
                         lub zapisaniu czasu rozpoczęcia pomiaru w przypadku aplikacji korzystających z zegara czasu rzeczywistego.
                         Wraz z upływem czasu następuje jego rejestracja a użytkownik wpływa na to kiedy ma być przerwa w pomiarze.
                         Prezentowana aplikacja służy właśnie do takiego pomiaru. Dodatkowo użytkownik ma możliwość rejestracji notatek
-                        przy każdym z okrążeń stopera - LAP. Taka uwaga jest bardzo cenna gdy zbieramy dużo danych w krótkim czasie
+                        przy każdym z okrążeń stopera - LAP. Taka uwaga jest bardzo cenna gdy zbieramy dużo danych w krótkim czasie,
                         a gdzie każdy krok należy szczegółowo opisać. Taka metoda pozwala zaoszczędzić czas oraz usprawnić jego rejestrację.
                         Tak zebrane dane to nieocenione źródło informacji podczas dalszych analiz, gdzie liczy się zarówno jakość danych 
                         jak i dokładny opis wydarzeń rejestrowanych.
@@ -105,7 +106,7 @@
                     <p>
                         Lista pomiarów służy do opracowania wykresów oraz czasochłonności poszczególnych
                         zadań. Dostarczone w ten sposób dane są niezastąpionym źródłem do analiz
-                        czasu dodającego wartość oraz czasu marnotrawionego na przygotowania. Opisane kroki
+                        czasu dodającego wartość, oraz czasu marnotrawionego na przygotowania. Opisane kroki
                         z największą liczbą powtórzeń można przedstawić za pomocą wykresu Pareto (diagramu Pareto).
                         Diagram przedstawia największy udział każdego ze zmierzonych zadań. Tak przygotowane
                         dane są podstawą do analizy czynności, które należy optymalizować. Metodologia lean wykorzystuje takie dane
@@ -118,14 +119,14 @@
                     <br><br>
                     <h2>Dlaczego stosować chronometraż?</h2>
                     <p>
-                        Pomiar czasu odgrywa kluczową rolę w przemyśle, zakładach produkcyjnych, pomagając w kontrolowaniu procesów,
+                        Pomiar czasu odgrywa kluczową rolę w przemyśle i zakładach produkcyjnych, pomagając w kontrolowaniu procesów,
                         zadań, projektów oraz w optymalizacji działań i prac wykonywanych przez dane komórki. Ma to swoje odzwierciedlenie
                         w jakości, ponieważ dążenie do optymalizacji wprowadza dobre nawyki oraz motywuje do wprowadzenia coraz to nowszych
                         usprawnień.
                     </p>
                     <p>
                         Coraz częściej pojawiającym się sygnałem do wprowadzania narzędzi rejestracji procesów jest rozwijająca się konkurencja.
-                        Każde, nawet najmniejsze posunięcie ku optymalizacjom pozwala oszczędzać pieniądze. A pieniądze to napędzanie rozwoju firmy.
+                        Każde, nawet najmniejsze posunięcie ku optymalizacjom pozwala oszczędzać pieniądze. A pieniądze to narzędzie do napędzania rozwoju firmy.
                         Takie działania jak i szereg innych wprowadza harmonię oraz ład. Miejsca gdzie panuje porządek są łatwiejsze w obsłudze. 
                         Niepotrzebne rzeczy trafiają albo do magazynu albo do kosza. Wprowadzając w organizacji taką metodologię, buduje się dobre 
                         nawyki. Automatyzacja przemysłu to proces opierający się na wyłapywaniu powtarzalnych procesów i zastępowaniu ich jednym lub też
@@ -134,7 +135,7 @@
                     </p>
                     <h2>Jak poprawnie interpretować wyniki pomiarów?</h2>
                     <p>Proces pomiaru składa się tak na prawdę z kilku kroków. Pierwsze z nich zawierają pracę w miejscu gdzie chcemy prowadzić badanie.
-                    Każde kolejne to już konkretne kroki lub środki wprowadzane już po pomiarach. Tak więc mamy: <br>
+                    Każde kolejne to już konkretne kroki lub środki wprowadzone po wykonaniu pomiarów. Tak więc mamy: <br>
                     1. Przygotowanie pomiarów - zwykle jest to wybranie miejsca działania oraz przygotowanie słownika operacji. Należy pamiętać
                     o pozytywnym nastawieniu! <br>
                     2. Przeprowadzenie pomiarów - powinno się zaczynać od początku trwania procesu. To bardzo ważne ponieważ tam już zaczynają

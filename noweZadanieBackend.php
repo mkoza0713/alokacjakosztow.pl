@@ -39,8 +39,8 @@
         }else{
             $zalogowany_uzytkownik = $_SESSION['db_username'];
             $organizacja_usera = $_SESSION['db_organization'];
-            
             if(isset($_SESSION['wiadomosc_edycja_wartosci'])){
+
                 $id_do_edycji=$_SESSION['wiadomosc_edycja_wartosci'];
                 $zapytanieSql4 = "UPDATE zgloszenia SET klient='$klient' , zadanie='$zadanie', uwagi='$uwagi' 
                 ,data_zgloszenia='$data_zgloszenia', czas_start='$czas_start', status_zadania='$status_zadania'  WHERE id='$id_do_edycji'";
