@@ -10,7 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="stoper - chronometraż z zapisem do pliku oraz mini cms do alokowania kosztów">
     <meta name="keywords" content="stoper, chronometraż, chronometr, alokacja kosztów, 
-    alokowanie, mini-cms, stoper z zapisem, chronometer, plik, chronometr z plikiem, stoper z zapisem do pliku, stoper z plikiem">
+    alokowanie, mini-cms, stoper z zapisem, chronometer, plik, chronometr z plikiem, stoper z zapisem do pliku xls,
+    stoper z zapisem do pliku download, stoper download, stoper z zapisem do pliku, stoper z plikiem, licznik godzin, 
+    wynik stopera do pliku, rejestracja czasu pracy, rejestracja pracy, zliczanie casu pracy, controlling, logowanie pracowników, 
+    aplikacja do śledzenia czasu pracy, ewidencja czasu pracy, ewidencja godzin">
     <meta name="author" content="Mateusz Koza">
     <title>Stoper</title>
     <link rel="stylesheet" href="style2.css">
