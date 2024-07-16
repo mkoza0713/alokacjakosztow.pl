@@ -33,6 +33,7 @@ if(!isset($_SESSION['status_logowania'])){
                         <a class="list1_2_element" href="index.php">Chronometraż</a>
                         <a class="list1_2_element" href="ustawienia_konta.php">Ustawienia</a>
                         <a class="list1_2_element" href="politykaPrywatnosci.php">Polityka prywatności</a>
+                        <a class="list1_2_element" href="qualityForm.php">Formularz jakościowy</a>
                 </ul>
             </li>
         </ul>
