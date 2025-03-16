@@ -45,30 +45,58 @@
             </ul>
         </nav>
         <div class="centrumStrony">
-            <form action="qualityForm_be.php" method="post">
                 <!-- elementy strony -->
                 <div class="elementKontenera">
-                    <label for="barcode_id">Zlecenie: </label>
-                    <div class="elementKontenera_2">
-                        <input class="c_text_input" type="text" id="barcode_id" name="barcode" readonly>
-                        <div id="scanner-container" class="scanner_container_class">   
-                    </div>
+                    <form action="qualityForm_be.php" method="post">
+                            <h1>Uruchomienie</h1>
+                            <input type="text" name="" id="id_uruchomienie" placeholder="np. ZSK/...">
+                            <hr>
+                            <h1>Operator</h1>
+                            <input type="text" name="" id="id_operator" placeholder="id operatora">
+                            <hr>
+
+                            <h1>Pytanie 1</h1>
+                            <input type="radio" id="id_option1_1" value="OP1.1" name="question1">
+                            <label for="id_option1_1">Opcja 1</label>
+                            <input type="radio" id="id_option1_2" value="OP1.2" name="question1">
+                            <label for="id_option1_2">Opcja 2</label>
+                            <input type="radio" id="id_option1_3" value="OP1.3" name="question1">
+                            <label for="id_option1_3">Opcja 3</label>
+
+                            <br><hr><br>
+
+                            <h1>Pytanie 2</h1>
+                            <input type="radio" id="id_option2_1" value="OP2.1" name="question2">
+                            <label for="id_option2_1">Opcja 1</label>
+                            <input type="radio" id="id_option2_2" value="OP2.2" name="question2">
+                            <label for="id_option2_2">Opcja 2</label>
+                            <input type="radio" id="id_option2_3" value="OP2.3" name="question2">
+                            <label for="id_option2_3">Opcja 3</label>
+                            <br><hr><br>
+
+                            <h1>Pytanie 3</h1>
+                            <input type="radio" id="id_option3_1" value="OP3.1" name="question3">
+                            <label for="id_option3_1">Opcja 1</label>
+                            <input type="radio" id="id_option3_2" value="OP3.2" name="question3">
+                            <label for="id_option3_2">Opcja 2</label>
+                            <input type="radio" id="id_option3_3" value="OP3.3" name="question3">
+                            <label for="id_option3_3">Opcja 3</label>
+                            <br><hr><br>
+
+                            <h1>Pytanie 4</h1>
+                            <input type="radio" id="id_option4_1" value="OP4.1" name="question4">
+                            <label for="id_option4_1">Opcja 1</label>
+                            <input type="radio" id="id_option4_2" value="OP4.2" name="question4">
+                            <label for="id_option4_2">Opcja 2</label>
+                            <input type="radio" id="id_option4_3" value="OP4.3" name="question4">
+                            <label for="id_option4_3">Opcja 3</label>
+                            <br><hr><br>
+
+                            <input type="submit" value="Wyślij">
+                    </form>
+
+
                 </div>
-                <div class="elementKontenera">
-                        <label for="pn_id_id">ID wyrobu: </label>
-                        <input class="c_text_input" type="text" name="pn_id" id="pn_id_id">
-                </div>
-                <div class="elementKontenera">
-                        <label for="zdjecie_1">Zdjęcie lutowania J4</label>
-                        <input class="c_file_input" type="file" name="photo_1" id="photo_1_id">
-                </div>
-            </form>
-            <div class="elementKontenera">
-                <a href=logowanie.php><input class="przycisk1" type="button" value="POWRÓT"></a><br>
-            </div>
-            <div class="elementKontenera">
-                <!-- <iframe src="https://alokacjakosztow.pl" style="border:none;" frameborder="0"></iframe> -->
-            </div>
         </div>
         <footer>
             <script src="coockiePermision.js"></script>
