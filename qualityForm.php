@@ -21,10 +21,6 @@
     <link rel="stylesheet" href="style_coockie.css">
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="script.js"></script>
-    <script src="qr_reader.js"></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7742530928316810"
-     crossorigin="anonymous"></script>
 <body>
     <section>
         <nav>
