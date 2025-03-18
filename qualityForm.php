@@ -57,9 +57,11 @@
                     if(isset($_SESSION['status_db'])){
                         if($_SESSION['status_db']==1){
                             echo '<h1 style="color: green">Dodano do bazy</h1>';
+                            echo '<h1 style="color: green">Uzyskany wynik to '.$_SESSION['wynik_formularza'].'/10</h1>';
                         }else{
                             echo '<h1 style="color: red">Błąd formularza</h1>';
                         }
+                        unset($_SESSION['wynik_formularza']);
                         unset($_SESSION['status_db']);
                     }
 

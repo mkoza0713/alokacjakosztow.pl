@@ -41,6 +41,19 @@ $pytanie_8 = $_POST['question8'];
 $pytanie_9 = $_POST['question9'];
 $pytanie_10 = $_POST['question10'];
 
+$wynik_formularza = 0;
+if($pytanie_1 == "TAK")$wynik_formularza++;
+if($pytanie_2 == "TAK")$wynik_formularza++;
+if($pytanie_3 == "TAK")$wynik_formularza++;
+if($pytanie_4 == "TAK")$wynik_formularza++;
+if($pytanie_5 == "TAK")$wynik_formularza++;
+if($pytanie_6 == "TAK")$wynik_formularza++;
+if($pytanie_7 == "TAK")$wynik_formularza++;
+if($pytanie_8 == "TAK")$wynik_formularza++;
+if($pytanie_9 == "TAK")$wynik_formularza++;
+if($pytanie_10 == "TAK")$wynik_formularza++;
+
+
 if(strlen($pytanie_1)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_2)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_3)<=0)$test_poprawnosci_formularza=false;
@@ -86,6 +99,7 @@ if($test_poprawnosci_formularza){
         if(@$polaczenie->query($zapytaniesql_1)){
             //echo "dodano do bazy";
             $_SESSION['status_db'] = 1;
+            $_SESSION['wynik_formularza'] = $wynik_formularza;
             header('Location:qualityForm.php');
         }else{
             //echo "Blad polaczenia z baza";
