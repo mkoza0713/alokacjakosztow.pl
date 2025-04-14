@@ -64,9 +64,21 @@ session_start();
                 </div>
                 <form action="eksport_danych_csv.php" method="post">
                     <div  class="elementKontenera">
-                        <input class="przycisk1" type="submit" value="Eksport CSV"><br>
+                        <input type="hidden" name="typ_eksportu" value="zgloszenia">
+                        <input class="przycisk1" type="submit" value="Eksport CSV alokacja kosztow"><br>
                     </div>
                 </form>
+                <?php
+                if($_SESSION['db_organization']=='LIGWAN KJ'){
+                    echo 
+                    '<form action="eksport_danych_csv.php" method="post">
+                        <div  class="elementKontenera">
+                            <input type="hidden" name="typ_eksportu" value="miedzyoperacyjna">
+                            <input class="przycisk1" type="submit" value="Eksport CSV miedzyoperacyjna"><br>
+                        </div>
+                    </form>';
+                }
+                ?>
                 <div  class="elementKontenera">
                     <h3>Słowniki</h3>
                 </div>
