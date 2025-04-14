@@ -40,18 +40,32 @@ $pytanie_7 = $_POST['question7'];
 $pytanie_8 = $_POST['question8'];
 $pytanie_9 = $_POST['question9'];
 $pytanie_10 = $_POST['question10'];
+$pytanie_11 = $_POST['question11'];
 
 $wynik_formularza = 0;
+$ilosc_pytan = 11; //liczba pytan w formularzu
 if($pytanie_1 == "TAK")$wynik_formularza++;
+if($pytanie_1 == "N/D")$ilosc_pytan--;
 if($pytanie_2 == "TAK")$wynik_formularza++;
+if($pytanie_2 == "N/D")$ilosc_pytan--;
 if($pytanie_3 == "TAK")$wynik_formularza++;
+if($pytanie_3 == "N/D")$ilosc_pytan--;
 if($pytanie_4 == "TAK")$wynik_formularza++;
+if($pytanie_4 == "N/D")$ilosc_pytan--;
 if($pytanie_5 == "TAK")$wynik_formularza++;
+if($pytanie_5 == "N/D")$ilosc_pytan--;
 if($pytanie_6 == "TAK")$wynik_formularza++;
+if($pytanie_6 == "N/D")$ilosc_pytan--;
 if($pytanie_7 == "TAK")$wynik_formularza++;
+if($pytanie_7 == "N/D")$ilosc_pytan--;
 if($pytanie_8 == "TAK")$wynik_formularza++;
+if($pytanie_8 == "N/D")$ilosc_pytan--;
 if($pytanie_9 == "TAK")$wynik_formularza++;
+if($pytanie_9 == "N/D")$ilosc_pytan--;
 if($pytanie_10 == "TAK")$wynik_formularza++;
+if($pytanie_10 == "N/D")$ilosc_pytan--;
+if($pytanie_11 == "TAK")$wynik_formularza++;
+if($pytanie_11 == "N/D")$ilosc_pytan--;
 
 
 if(strlen($pytanie_1)<=0)$test_poprawnosci_formularza=false;
@@ -64,6 +78,7 @@ if(strlen($pytanie_7)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_8)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_9)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_10)<=0)$test_poprawnosci_formularza=false;
+if(strlen($pytanie_11)<=0)$test_poprawnosci_formularza=false;
 
 $uzasadnienie_1 = $_POST['answer1'];
 $uzasadnienie_2 = $_POST['answer2'];
@@ -75,9 +90,9 @@ $uzasadnienie_7 = $_POST['answer7'];
 $uzasadnienie_8 = $_POST['answer8'];
 $uzasadnienie_9 = $_POST['answer9'];
 $uzasadnienie_10 = $_POST['answer10'];
+$uzasadnienie_11 = $_POST['answer11'];
 
 $uwagi = $_POST['n_uwagi_koncowe'];
-
 
 
 
@@ -91,15 +106,16 @@ if($test_poprawnosci_formularza){
         $zapytaniesql_1 = "INSERT INTO in_process_control VALUES 
     (NULL, '$id_kontrolera', '$data', '$operator', '$brygada', '$zlecenie', '$pnwyrobu', '$stanowisko', '$czynnosc', 
     '$pytanie_1', '$pytanie_2', '$pytanie_3', '$pytanie_4', '$pytanie_5', '$pytanie_6', 
-    '$pytanie_7', '$pytanie_8', '$pytanie_9', '$pytanie_10', 
+    '$pytanie_7', '$pytanie_8', '$pytanie_9', '$pytanie_10',  '$pytanie_11',
     '$uzasadnienie_1', '$uzasadnienie_2', '$uzasadnienie_3', '$uzasadnienie_4', 
     '$uzasadnienie_5', '$uzasadnienie_6', '$uzasadnienie_7', '$uzasadnienie_8', 
-    '$uzasadnienie_9', '$uzasadnienie_10', '$uwagi')";
+    '$uzasadnienie_9', '$uzasadnienie_10', '$uzasadnienie_11',
+    '$uwagi')";
     
         if(@$polaczenie->query($zapytaniesql_1)){
             //echo "dodano do bazy";
             $_SESSION['status_db'] = 1;
-            $_SESSION['wynik_formularza'] = $wynik_formularza;
+            $_SESSION['wynik_formularza'] = $wynik_formularza."/$ilosc_pytan";
             header('Location:qualityForm.php');
         }else{
             //echo "Blad polaczenia z baza";

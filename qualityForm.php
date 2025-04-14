@@ -57,7 +57,7 @@
                     if(isset($_SESSION['status_db'])){
                         if($_SESSION['status_db']==1){
                             echo '<h1 style="color: green">Dodano do bazy</h1>';
-                            echo '<h1 style="color: green">Uzyskany wynik to '.$_SESSION['wynik_formularza'].'/10</h1>';
+                            echo '<h1 style="color: green">Uzyskany wynik to '.$_SESSION['wynik_formularza'].'</h1>';
                         }else{
                             echo '<h1 style="color: red">Błąd formularza</h1>';
                         }
@@ -266,6 +266,8 @@
                             <label for="id_option1_1">TAK</label>
                             <input type="radio" id="id_option1_2" value="NIE" name="question1">
                             <label for="id_option1_2">NIE</label>
+                            <input type="radio" id="id_option1_3" value="N/D" name="question1">
+                            <label for="id_option1_3">NIE DOTYCZY</label>
                             <input type="text" name="answer1" id="id_answer1" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
@@ -275,6 +277,8 @@
                             <label for="id_option2_1">TAK</label>
                             <input type="radio" id="id_option2_2" value="NIE" name="question2">
                             <label for="id_option2_2">NIE</label>
+                            <input type="radio" id="id_option2_3" value="N/D" name="question2">
+                            <label for="id_option2_3">NIE DOTYCZY</label>
                             <input type="text" name="answer2" id="id_answer2" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
@@ -283,6 +287,8 @@
                             <label for="id_option3_1">TAK</label>
                             <input type="radio" id="id_option3_2" value="NIE" name="question3">
                             <label for="id_option3_2">NIE</label>
+                            <input type="radio" id="id_option3_3" value="N/D" name="question3">
+                            <label for="id_option3_3">NIE DOTYCZY</label>
                             <input type="text" name="answer3" id="id_answer3" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
@@ -291,22 +297,38 @@
                             <label for="id_option4_1">TAK</label>
                             <input type="radio" id="id_option4_2" value="NIE" name="question4">
                             <label for="id_option4_2">NIE</label>
+                            <input type="radio" id="id_option4_3" value="N/D" name="question4">
+                            <label for="id_option4_3">NIE DOTYCZY</label>
                             <input type="text" name="answer4" id="id_answer4" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4> Czy operator wykonał kontrolę międzyoperacyjną i kontrolę pierwszej sztuki?</h4>
+                            <h4> Czy operator wykonał kontrolę międzyoperacyjną?</h4>
                             <input type="radio" id="id_option5_1" value="TAK" name="question5">
                             <label for="id_option5_1">TAK</label>
                             <input type="radio" id="id_option5_2" value="NIE" name="question5">
                             <label for="id_option5_2">NIE</label>
+                            <input type="radio" id="id_option5_3" value="N/D" name="question5">
+                            <label for="id_option5_3">NIE DOTYCZY</label>
                             <input type="text" name="answer5" id="id_answer5" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
+
+                            <h4> Czy operator wykonał kontrolę pierwszej sztuki?</h4>
+                            <input type="radio" id="id_option11_1" value="TAK" name="question11">
+                            <label for="id_option11_1">TAK</label>
+                            <input type="radio" id="id_option11_2" value="NIE" name="question11">
+                            <label for="id_option11_2">NIE</label>
+                            <input type="radio" id="id_option11_3" value="N/D" name="question11">
+                            <label for="id_option11_3">NIE DOTYCZY</label>
+                            <input type="text" name="answer5" id="id_answer11" placeholder="Uzasadnienie odpowiedzi">
+                            <hr>    
 
                             <h4>  Czy operator ma otwarty dokument i potrafi wskazać informacje niezbędne dla czynności, którą wykonuje?</h4>
                             <input type="radio" id="id_option6_1" value="TAK" name="question6">
                             <label for="id_option6_1">TAK</label>
                             <input type="radio" id="id_option6_2" value="NIE" name="question6">
                             <label for="id_option6_2">NIE</label>
+                            <input type="radio" id="id_option6_3" value="N/D" name="question6">
+                            <label for="id_option6_3">NIE DOTYCZY</label>
                             <input type="text" name="answer6" id="id_answer6" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
@@ -315,6 +337,8 @@
                             <label for="id_option7_1">TAK</label>
                             <input type="radio" id="id_option7_2" value="NIE" name="question7">
                             <label for="id_option7_2">NIE</label>
+                            <input type="radio" id="id_option7_3" value="N/D" name="question7">
+                            <label for="id_option7_3">NIE DOTYCZY</label>
                             <input type="text" name="answer7" id="id_answer7" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
@@ -323,6 +347,8 @@
                             <label for="id_option8_1">TAK</label>
                             <input type="radio" id="id_option8_2" value="NIE" name="question8">
                             <label for="id_option8_2">NIE</label>
+                            <input type="radio" id="id_option8_2" value="N/D" name="question8">
+                            <label for="id_option8_2">NIE DOTYCZY</label>
                             <input type="text" name="answer8" id="id_answer8" placeholder="Uzasadnienie odpowiedzi">
                             <hr>    
 
@@ -332,6 +358,8 @@
                             <label for="id_option9_1">TAK</label>
                             <input type="radio" id="id_option9_2" value="NIE" name="question9">
                             <label for="id_option9_2">NIE</label>
+                            <input type="radio" id="id_option9_3" value="N/D" name="question9">
+                            <label for="id_option9_3">NIE DOTYCZY</label>
                             <input type="text" name="answer9" id="id_answer9" placeholder="Uzasadnienie odpowiedzi">
                             <hr>      
 
@@ -341,6 +369,8 @@
                             <label for="id_option10_1">TAK</label>
                             <input type="radio" id="id_option10_2" value="NIE" name="question10">
                             <label for="id_option10_2">NIE</label>
+                            <input type="radio" id="id_option10_3" value="N/D" name="question10">
+                            <label for="id_option10_3">NIE DOTYCZY</label>
                             <input type="text" name="answer10" id="id_answer10" placeholder="Uzasadnienie odpowiedzi">
                             <hr>   
                             
