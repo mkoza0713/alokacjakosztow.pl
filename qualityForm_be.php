@@ -41,9 +41,10 @@ $pytanie_8 = $_POST['question8'];
 $pytanie_9 = $_POST['question9'];
 $pytanie_10 = $_POST['question10'];
 $pytanie_11 = $_POST['question11'];
+$pytanie_12 = $_POST['question12'];
 
 $wynik_formularza = 0;
-$ilosc_pytan = 11; //liczba pytan w formularzu
+$ilosc_pytan = 12; //liczba pytan w formularzu
 if($pytanie_1 == "TAK")$wynik_formularza++;
 if($pytanie_1 == "N/D")$ilosc_pytan--;
 if($pytanie_2 == "TAK")$wynik_formularza++;
@@ -66,6 +67,8 @@ if($pytanie_10 == "TAK")$wynik_formularza++;
 if($pytanie_10 == "N/D")$ilosc_pytan--;
 if($pytanie_11 == "TAK")$wynik_formularza++;
 if($pytanie_11 == "N/D")$ilosc_pytan--;
+if($pytanie_12 == "TAK")$wynik_formularza++;
+if($pytanie_12 == "N/D")$ilosc_pytan--;
 
 
 if(strlen($pytanie_1)<=0)$test_poprawnosci_formularza=false;
@@ -79,6 +82,7 @@ if(strlen($pytanie_8)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_9)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_10)<=0)$test_poprawnosci_formularza=false;
 if(strlen($pytanie_11)<=0)$test_poprawnosci_formularza=false;
+if(strlen($pytanie_12)<=0)$test_poprawnosci_formularza=false;
 
 $uzasadnienie_1 = $_POST['answer1'];
 $uzasadnienie_2 = $_POST['answer2'];
@@ -91,6 +95,7 @@ $uzasadnienie_8 = $_POST['answer8'];
 $uzasadnienie_9 = $_POST['answer9'];
 $uzasadnienie_10 = $_POST['answer10'];
 $uzasadnienie_11 = $_POST['answer11'];
+$uzasadnienie_12 = $_POST['answer12'];
 
 $uwagi = $_POST['n_uwagi_koncowe'];
 
@@ -106,10 +111,10 @@ if($test_poprawnosci_formularza){
         $zapytaniesql_1 = "INSERT INTO in_process_control VALUES 
     (NULL, '$id_kontrolera', '$data', '$operator', '$brygada', '$zlecenie', '$pnwyrobu', '$stanowisko', '$czynnosc', 
     '$pytanie_1', '$pytanie_2', '$pytanie_3', '$pytanie_4', '$pytanie_5', '$pytanie_6', 
-    '$pytanie_7', '$pytanie_8', '$pytanie_9', '$pytanie_10',  '$pytanie_11',
+    '$pytanie_7', '$pytanie_8', '$pytanie_9', '$pytanie_10',  '$pytanie_11','$pytanie_12',
     '$uzasadnienie_1', '$uzasadnienie_2', '$uzasadnienie_3', '$uzasadnienie_4', 
     '$uzasadnienie_5', '$uzasadnienie_6', '$uzasadnienie_7', '$uzasadnienie_8', 
-    '$uzasadnienie_9', '$uzasadnienie_10', '$uzasadnienie_11',
+    '$uzasadnienie_9', '$uzasadnienie_10', '$uzasadnienie_11','$uzasadnienie_12',
     '$uwagi')";
     
         if(@$polaczenie->query($zapytaniesql_1)){

@@ -260,7 +260,7 @@
                             <hr>
 
 
-                            <h4> Czy operator zanim przystąpił do operacji wykonał czynności zawarte w TPM? 
+                            <h4> 1. Czy operator zanim przystąpił do operacji wykonał czynności zawarte w TPM? 
                                 (Czy wiesz na co zwrócić uwagę przy stanowisku zanim przystąpisz do pracy?)</h4>
                             <input type="radio" id="id_option1_1" value="TAK" name="question1">
                             <label for="id_option1_1">TAK</label>
@@ -271,7 +271,7 @@
                             <input type="text" name="answer1" id="id_answer1" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4> Czy operator zapoznał się z instrukcją TWI na danym stanowisku? 
+                            <h4> 2. Czy operator zapoznał się z instrukcją TWI na danym stanowisku? 
                                 (Czy wiesz jak wykonywać przydzieloną pracę?)</h4>
                             <input type="radio" id="id_option2_1" value="TAK" name="question2">
                             <label for="id_option2_1">TAK</label>
@@ -282,7 +282,7 @@
                             <input type="text" name="answer2" id="id_answer2" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4> Czy operator korzysta z CP dla  wykonywanej operacji?</h4>
+                            <h4> 3. Czy operator korzysta z CP dla  wykonywanej operacji?</h4>
                             <input type="radio" id="id_option3_1" value="TAK" name="question3">
                             <label for="id_option3_1">TAK</label>
                             <input type="radio" id="id_option3_2" value="NIE" name="question3">
@@ -292,7 +292,7 @@
                             <input type="text" name="answer3" id="id_answer3" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4> Czy operator wie na czym polega kontrola międzyoperacyjna oraz kontrola pierwszej sztuki?</h4>
+                            <h4> 4. Czy operator wie na czym polega kontrola międzyoperacyjna?</h4>
                             <input type="radio" id="id_option4_1" value="TAK" name="question4">
                             <label for="id_option4_1">TAK</label>
                             <input type="radio" id="id_option4_2" value="NIE" name="question4">
@@ -302,7 +302,7 @@
                             <input type="text" name="answer4" id="id_answer4" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4> Czy operator wykonał kontrolę międzyoperacyjną?</h4>
+                            <h4>5. Czy operator wie na czym polega kontrola pierwszej sztuki?</h4>
                             <input type="radio" id="id_option5_1" value="TAK" name="question5">
                             <label for="id_option5_1">TAK</label>
                             <input type="radio" id="id_option5_2" value="NIE" name="question5">
@@ -312,17 +312,8 @@
                             <input type="text" name="answer5" id="id_answer5" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4> Czy operator wykonał kontrolę pierwszej sztuki?</h4>
-                            <input type="radio" id="id_option11_1" value="TAK" name="question11">
-                            <label for="id_option11_1">TAK</label>
-                            <input type="radio" id="id_option11_2" value="NIE" name="question11">
-                            <label for="id_option11_2">NIE</label>
-                            <input type="radio" id="id_option11_3" value="N/D" name="question11">
-                            <label for="id_option11_3">NIE DOTYCZY</label>
-                            <input type="text" name="answer5" id="id_answer11" placeholder="Uzasadnienie odpowiedzi">
-                            <hr>    
 
-                            <h4>  Czy operator ma otwarty dokument i potrafi wskazać informacje niezbędne dla czynności, którą wykonuje?</h4>
+                            <h4> 6. Czy operator wykonał kontrolę międzyoperacyjną?</h4>
                             <input type="radio" id="id_option6_1" value="TAK" name="question6">
                             <label for="id_option6_1">TAK</label>
                             <input type="radio" id="id_option6_2" value="NIE" name="question6">
@@ -332,7 +323,7 @@
                             <input type="text" name="answer6" id="id_answer6" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4>  Czy operator wie jakie ma kompetencje wg "Mapy kompetencji" na danym stanowisku?</h4>
+                            <h4>7. Czy operator wykonał kontrolę pierwszej sztuki?</h4>
                             <input type="radio" id="id_option7_1" value="TAK" name="question7">
                             <label for="id_option7_1">TAK</label>
                             <input type="radio" id="id_option7_2" value="NIE" name="question7">
@@ -342,18 +333,17 @@
                             <input type="text" name="answer7" id="id_answer7" placeholder="Uzasadnienie odpowiedzi">
                             <hr>
 
-                            <h4>  Czy operator wie jak postępować w przypadku wykrycia niezgodności?</h4>
+                            <h4>8. Czy operator ma otwarty dokument i potrafi wskazać informacje niezbędne dla czynności, którą wykonuje?</h4>
                             <input type="radio" id="id_option8_1" value="TAK" name="question8">
                             <label for="id_option8_1">TAK</label>
                             <input type="radio" id="id_option8_2" value="NIE" name="question8">
                             <label for="id_option8_2">NIE</label>
-                            <input type="radio" id="id_option8_2" value="N/D" name="question8">
-                            <label for="id_option8_2">NIE DOTYCZY</label>
+                            <input type="radio" id="id_option8_3" value="N/D" name="question8">
+                            <label for="id_option8_3">NIE DOTYCZY</label>
                             <input type="text" name="answer8" id="id_answer8" placeholder="Uzasadnienie odpowiedzi">
-                            <hr>    
+                            <hr>
 
-                            <h4>  Czy operator ma prawidłowo ustawiony licznik? 
-                                (Czy licznik jest ustawiony zgodnie z wymaganiami do czynności, którą wykonuje?)</h4>
+                            <h4>9. Czy operator wie jakie ma kompetencje wg "Mapy kompetencji" na danym stanowisku?</h4>
                             <input type="radio" id="id_option9_1" value="TAK" name="question9">
                             <label for="id_option9_1">TAK</label>
                             <input type="radio" id="id_option9_2" value="NIE" name="question9">
@@ -361,10 +351,9 @@
                             <input type="radio" id="id_option9_3" value="N/D" name="question9">
                             <label for="id_option9_3">NIE DOTYCZY</label>
                             <input type="text" name="answer9" id="id_answer9" placeholder="Uzasadnienie odpowiedzi">
-                            <hr>      
+                            <hr>    
 
-                            <h4>  Czy materiał wykorzystywany do wykonywanej czynności jest zgodny z wydaniem? 
-                                (Sprawdzić czy wydana partia materiału jest do tego zlecenia/uruchomienia)</h4>
+                            <h4>10. Czy operator wie jak postępować w przypadku wykrycia niezgodności?</h4>
                             <input type="radio" id="id_option10_1" value="TAK" name="question10">
                             <label for="id_option10_1">TAK</label>
                             <input type="radio" id="id_option10_2" value="NIE" name="question10">
@@ -372,13 +361,34 @@
                             <input type="radio" id="id_option10_3" value="N/D" name="question10">
                             <label for="id_option10_3">NIE DOTYCZY</label>
                             <input type="text" name="answer10" id="id_answer10" placeholder="Uzasadnienie odpowiedzi">
-                            <hr>   
+                            <hr>      
+
+                            <h4>11. Czy operator ma prawidłowo ustawiony licznik? 
+                                (Czy licznik jest ustawiony zgodnie z wymaganiami do czynności, którą wykonuje?)</h4>
+                            <input type="radio" id="id_option11_1" value="TAK" name="question11">
+                            <label for="id_option11_1">TAK</label>
+                            <input type="radio" id="id_option11_2" value="NIE" name="question11">
+                            <label for="id_option11_2">NIE</label>
+                            <input type="radio" id="id_option11_3" value="N/D" name="question11">
+                            <label for="id_option11_3">NIE DOTYCZY</label>
+                            <input type="text" name="answer11" id="id_answer11" placeholder="Uzasadnienie odpowiedzi">
+                            <hr>      
+
+                            <h4>12. Czy materiał wykorzystywany do wykonywanej czynności jest zgodny z wydaniem? 
+                                (Sprawdzić czy wydana partia materiału jest do tego zlecenia/uruchomienia)</h4>
+                            <input type="radio" id="id_option12_1" value="TAK" name="question12">
+                            <label for="id_option12_1">TAK</label>
+                            <input type="radio" id="id_option12_2" value="NIE" name="question12">
+                            <label for="id_option12_2">NIE</label>
+                            <input type="radio" id="id_option12_3" value="N/D" name="question12">
+                            <label for="id_option12_3">NIE DOTYCZY</label>
+                            <input type="text" name="answer12" id="id_answer12" placeholder="Uzasadnienie odpowiedzi">
+                            <hr>
+
                             
                             <input type="text" name="n_uwagi_koncowe" id="id_uwagi_koncowe" placeholder="Uwagi końcowe">
                             <br><hr><hr>
                             <input type="submit" value="Wyślij" class="przycisk1">
-
-
 
                             <br>
                             <br>
