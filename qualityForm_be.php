@@ -23,11 +23,11 @@ $stanowisko = $_POST['n_stanowisko'];
 $czynnosc = $_POST['n_czynnosc'];
 
 if(strlen($operator)!=6)$test_poprawnosci_formularza=false;
-if(strlen($brygada)<=0)$test_poprawnosci_formularza=false;  
-if(strlen($zlecenie)<=0)$test_poprawnosci_formularza=false;
-if(strlen($pnwyrobu)<=0)$test_poprawnosci_formularza=false;
-if(strlen($stanowisko)<=0)$test_poprawnosci_formularza=false;
-if(strlen($czynnosc)<=0)$test_poprawnosci_formularza=false;
+// if(strlen($brygada)<=0)$test_poprawnosci_formularza=false;  
+// if(strlen($zlecenie)<=0)$test_poprawnosci_formularza=false;
+// if(strlen($pnwyrobu)<=0)$test_poprawnosci_formularza=false;
+// if(strlen($stanowisko)<=0)$test_poprawnosci_formularza=false;
+// if(strlen($czynnosc)<=0)$test_poprawnosci_formularza=false;
 
 
 $pytanie_1 = $_POST['question1'];
