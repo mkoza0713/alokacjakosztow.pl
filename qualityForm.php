@@ -71,7 +71,28 @@
                     <form action="qualityForm_be.php" method="post">
                             <h4>Operator</h4>
                             <input type="text" name="n_operator" id="id_operator" placeholder="id operatora">
-                            
+
+                            <input type="text" name="n_time_start" id="id_time_start" style="display: none;">
+
+                            <script>
+                                const inputElement = document.getElementById('id_operator'); // Pobierz element, który monitorujemy
+                                inputElement.addEventListener('input', function() {
+                                // const inputValue = inputElement.value; // Pobierz aktualną wartość
+                                // Wykonaj działanie, np. wyświetl wartość w konsoli
+                                const teraz = new Date();
+                                const godzina = teraz.getHours();
+                                const minuta = teraz.getMinutes();
+                                const sekunda = teraz.getSeconds();
+                                const dzien = teraz.getDate();
+                                const miesiac = teraz.getMonth();
+                                const rok = teraz.getFullYear();
+                                
+                                const full_data = `${rok}-${miesiac + 1}-${dzien}-${godzina}-${minuta}-${sekunda}`;
+                                document.getElementById('id_time_start').value = full_data; // Ustaw wartość w polu daty
+
+                                });
+                            </script>
+                                                        
                             <label for="brygada"><h4>Brygada</h4></label>
                             <input list="brygada" name="n_brygada" id="id_brygada">
                             <datalist id="brygada">

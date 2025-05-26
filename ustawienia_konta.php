@@ -69,7 +69,7 @@ session_start();
                     </div>
                 </form>
                 <?php
-                if($_SESSION['db_organization']=='LIGWAN KJ'){
+                if($_SESSION['db_organization']=='LIGWAN KJ' || $_SESSION['db_username']=='MateuszKoza'){
                     echo 
                     '<form action="eksport_danych_csv.php" method="post">
                         <div  class="elementKontenera">

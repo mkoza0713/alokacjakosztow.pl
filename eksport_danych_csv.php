@@ -61,7 +61,12 @@ $typ_zgloszenia = $_POST['typ_eksportu'];
                 
                 $fileName='mop.csv';
                 $fp = fopen($fileName, 'w');
-
+                $naglowki = "ID\tControler ID\tData\tOperator\tBrygada\tZlecenie\tPN Wyrobu\tStanowisko\tCzynność\t" .
+                    "Pytanie 1\tUzasadnienie 1\tPytanie 2\tUzasadnienie 2\tPytanie 3\tUzasadnienie 3\t" .
+                    "Pytanie 4\tUzasadnienie 4\tPytanie 5\tUzasadnienie 5\tPytanie 11\tUzasadnienie 11\t" .
+                    "Pytanie 6\tUzasadnienie 6\tPytanie 7\tUzasadnienie 7\tPytanie 8\tUzasadnienie 8\t" .
+                    "Pytanie 9\tUzasadnienie 9\tPytanie 10\tUzasadnienie 10\tUwagi\tStart formularza\tStop formularza\n";
+                fwrite($fp, $naglowki);
                 while($wiersz_zapytania = $wynik_zapytania1->fetch_assoc()){
                     $wiersz_Zapytania_1 = 
                     $wiersz_zapytania['id']."\t".
@@ -95,7 +100,9 @@ $typ_zgloszenia = $_POST['typ_eksportu'];
                     $wiersz_zapytania['uzasadnienie_9']."\t".
                     $wiersz_zapytania['pytanie_10']."\t".
                     $wiersz_zapytania['uzasadnienie_10']."\t".
-                    $wiersz_zapytania['uwagi'].
+                    $wiersz_zapytania['uwagi']."\t".
+                    $wiersz_zapytania['czas_start_form']."\t".
+                    $wiersz_zapytania['czas_stop_form']."\t".
                     "\n";
                     fwrite($fp, $wiersz_Zapytania_1);
                     }

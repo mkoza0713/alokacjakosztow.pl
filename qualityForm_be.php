@@ -22,6 +22,10 @@ $pnwyrobu = $_POST['n_pnwyrobu'];
 $stanowisko = $_POST['n_stanowisko'];   
 $czynnosc = $_POST['n_czynnosc'];
 
+
+$czas_start_formularza = $_POST['n_time_start'];
+$czas_stop_formularza = $data;
+
 if(strlen($operator)!=6)$test_poprawnosci_formularza=false;
 // if(strlen($brygada)<=0)$test_poprawnosci_formularza=false;  
 // if(strlen($zlecenie)<=0)$test_poprawnosci_formularza=false;
@@ -115,7 +119,7 @@ if($test_poprawnosci_formularza){
     '$uzasadnienie_1', '$uzasadnienie_2', '$uzasadnienie_3', '$uzasadnienie_4', 
     '$uzasadnienie_5', '$uzasadnienie_6', '$uzasadnienie_7', '$uzasadnienie_8', 
     '$uzasadnienie_9', '$uzasadnienie_10', '$uzasadnienie_11','$uzasadnienie_12',
-    '$uwagi')";
+    '$uwagi', '$czas_start_formularza', '$czas_stop_formularza')";
     
         if(@$polaczenie->query($zapytaniesql_1)){
             //echo "dodano do bazy";
