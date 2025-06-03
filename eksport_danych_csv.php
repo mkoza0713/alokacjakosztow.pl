@@ -88,8 +88,6 @@ $typ_zgloszenia = $_POST['typ_eksportu'];
                     $wiersz_zapytania['uzasadnienie_4']."\t".
                     $wiersz_zapytania['pytanie_5']."\t".
                     $wiersz_zapytania['uzasadnienie_5']."\t".
-                    $wiersz_zapytania['pytanie_11']."\t".
-                    $wiersz_zapytania['uzasadnienie_11']."\t".
                     $wiersz_zapytania['pytanie_6']."\t".
                     $wiersz_zapytania['uzasadnienie_6']."\t".
                     $wiersz_zapytania['pytanie_7']."\t".
@@ -100,6 +98,10 @@ $typ_zgloszenia = $_POST['typ_eksportu'];
                     $wiersz_zapytania['uzasadnienie_9']."\t".
                     $wiersz_zapytania['pytanie_10']."\t".
                     $wiersz_zapytania['uzasadnienie_10']."\t".
+                    $wiersz_zapytania['pytanie_11']."\t".
+                    $wiersz_zapytania['uzasadnienie_11']."\t".
+                    $wiersz_zapytania['pytanie_12']."\t".
+                    $wiersz_zapytania['uzasadnienie_12']."\t".
                     $wiersz_zapytania['uwagi']."\t".
                     $wiersz_zapytania['czas_start_form']."\t".
                     $wiersz_zapytania['czas_stop_form']."\t".
