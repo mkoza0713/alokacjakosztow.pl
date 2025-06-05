@@ -63,9 +63,9 @@ $typ_zgloszenia = $_POST['typ_eksportu'];
                 $fp = fopen($fileName, 'w');
                 $naglowki = "ID\tControler ID\tData\tOperator\tBrygada\tZlecenie\tPN Wyrobu\tStanowisko\tCzynność\t" .
                     "Pytanie 1\tUzasadnienie 1\tPytanie 2\tUzasadnienie 2\tPytanie 3\tUzasadnienie 3\t" .
-                    "Pytanie 4\tUzasadnienie 4\tPytanie 5\tUzasadnienie 5\tPytanie 11\tUzasadnienie 11\t" .
-                    "Pytanie 6\tUzasadnienie 6\tPytanie 7\tUzasadnienie 7\tPytanie 8\tUzasadnienie 8\t" .
-                    "Pytanie 9\tUzasadnienie 9\tPytanie 10\tUzasadnienie 10\tUwagi\tStart formularza\tStop formularza\n";
+                    "Pytanie 4\tUzasadnienie 4\tPytanie 5\tUzasadnienie 5\tPytanie 6\tUzasadnienie 6\t" .
+                    "Pytanie 7\tUzasadnienie 7\tPytanie 8\tUzasadnienie 8\tPytanie 9\tUzasadnienie 9\t" .
+                    "Pytanie 10\tUzasadnienie 10\tPytanie 11\tUzasadnienie 11\tPytanie 12\tUzasadnienie 12\tUwagi\tStart formularza\tStop formularza\n";
                 fwrite($fp, $naglowki);
                 while($wiersz_zapytania = $wynik_zapytania1->fetch_assoc()){
                     $wiersz_Zapytania_1 = 
