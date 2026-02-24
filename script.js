@@ -34,9 +34,22 @@ function ensureLapNoteInputExists(){
     input.style.padding = '6px';
     input.style.width = '80%';
     input.style.maxWidth = '500px';
+    // allow Enter in this input to record a lap
+    input.addEventListener('keydown', function(e){
+        if(e.key === 'Enter'){
+            e.preventDefault();
+            // ensure stopwatch is running
+            const startBtn = document.getElementById('start_button_stopwatch');
+            if(startBtn && startBtn.innerHTML === 'LAP'){
+                lap_lap_f('table_id');
+            }
+        }
+    });
     wrapper.appendChild(input);
     container.appendChild(wrapper);
 }
+
+// Note: Enter now only triggers LAP when pressed inside the lap note input.
 
 
 function start_lap_f(){
@@ -150,7 +163,34 @@ function lap_lap_f(table_id){
         const lastIdElem = document.getElementById('stopWatch_lastId');
         if(lastIdElem) lastIdElem.value = stopWatch_id_download;
         prev_lap_time_sec = current_lap_sec;
+        // reposition ad after adding a lap
+        if(typeof positionAd === 'function') positionAd();
 }
+
+    // move ad placeholder under lap table when rows exist, otherwise keep under stopwatch
+    function positionAd(){
+        const ad = document.getElementById('ad_placeholder');
+        if(!ad) return;
+        const table = document.getElementById('table_id');
+        const buttonsContainer = document.querySelector('.ramka_inputow:nth-of-type(2)');
+        // find the lap_list container
+        const lapList = document.querySelector('.lap_list');
+        if(table && table.rows && table.rows.length > 0){
+            // move ad after lapList
+            if(lapList && lapList.parentNode && lapList.nextSibling !== ad){
+                lapList.parentNode.insertBefore(ad, lapList.nextSibling);
+            }
+        } else {
+            // move ad after buttons (second .ramka_inputow)
+            if(buttonsContainer && buttonsContainer.parentNode && buttonsContainer.nextSibling !== ad){
+                buttonsContainer.parentNode.insertBefore(ad, buttonsContainer.nextSibling);
+            }
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+        positionAd();
+    });
 
 function stop_lap_f(){
     lock1 = 1;

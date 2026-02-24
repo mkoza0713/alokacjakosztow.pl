@@ -15,7 +15,8 @@
     wynik stopera do pliku, rejestracja czasu pracy, rejestracja pracy, zliczanie casu pracy, controlling, logowanie pracowników, 
     aplikacja do śledzenia czasu pracy, ewidencja czasu pracy, ewidencja godzin">
     <meta name="author" content="Mateusz Koza">
-    <title>Stoper</title>
+    <title>Stoper — chronometraż i eksport danych (CSV)</title>
+    <meta name="description" content="Stoper do chronometrażu z zapisem LAP i eksportem danych do CSV. Rejestruj czasy, dodawaj opisy i pobieraj gotowe pliki do analizy.">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="styleStopWath.css">
     <link rel="stylesheet" href="style_coockie.css">
@@ -53,6 +54,7 @@
                 <button class="stopwatch_button1" id="start_button_stopwatch" onclick=start_lap_f()>START</button>
                 <button class="stopwatch_button1" id="stop_button_stopwatch" onclick=stop_lap_f()>STOP</button>
             </div>
+            <?php include 'ad_include.php'; ?>
             <form action="download_stopwatch.php" method="post" target="_blank">
                 <div class="lap_list">
                     <table id="table_id" class="table_class">
@@ -175,9 +177,9 @@
 
 
                     <br><br>
-                    <h2>Dokładna instrukcja korzystania z chronometrażu znajduje się pod adresem <a href="instrukcja.php">alokacjakosztow.pl/instrukcja</a></h2>
+                    <h2>Dokładna instrukcja korzystania z chronometrażu znajduje się pod adresem <a href="instrukcja.php">alokacjakoszto.com/instrukcja</a></h2>
                     <h2>Natomiast jeśli sam stoper to za mało, pod linkiem znajduje się aplikacja do rejestracji czasu pracy!
-                        Znajdziesz ją w zakładce <a href="logowanie.php">logowanie</a> lub pod adresem: <a href="logowanie.php">alokacjakosztow.pl/logowanie</a>
+                        Znajdziesz ją w zakładce <a href="logowanie.php">logowanie</a> lub pod adresem: <a href="logowanie.php">alokacjakoszto.com/logowanie</a>
                     </h2>
             </div>
 

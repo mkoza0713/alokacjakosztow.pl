@@ -97,7 +97,7 @@
                  </p>
                  <img src="images/screen5.png" alt="screen5.png">
 
-                 <h2>Śledzenie czasu pracy oraz nadzór nad pracownikami, zapewnia aplikacja alokacjakosztow.pl</h2>
+                 <h2>Śledzenie czasu pracy oraz nadzór nad pracownikami, zapewnia aplikacja alokacjakoszto.com</h2>
                  <p>Jest to aplickacja przeglądarkowa, stworzona właśnie po to aby w bardzo prosty sposób zarządzać działem lub zasobami
                     ludzkimi. Największym plusem jest fakt, że jest dostępna z każdego miejsca na ziemi, gdzie mamy dostęp do internetu.
                  </p>
@@ -129,7 +129,7 @@
                  </p>
                  <h2>Podsumowując</h2>
                  <P>Dane sa przejrzyste i nie zawierają niepotrzebnych rzeczy oraz są bardzo dokładne!
-                        Jest to jedna z niewielu darmowych aplikacji oferujących takie możliwości. Rejestrując się oraz korzystając z alokacjakosztow.pl otrzymujemy:<br>
+                        Jest to jedna z niewielu darmowych aplikacji oferujących takie możliwości. Rejestrując się oraz korzystając z alokacjakoszto.com otrzymujemy:<br>
                         1. Prosty system mini-CMS,<br>
                         2. Prosty system rejestracji czasu pracy,<br>
                         3. Możliwość szybkiego podsumowania projektu/klienta/zadań,<br>

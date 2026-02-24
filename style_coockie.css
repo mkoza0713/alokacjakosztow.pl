@@ -39,3 +39,12 @@ h3{
 a{
     text-decoration: none;
 }
+
+/* Cookie banner specific link styling */
+.c_permision a{
+    color: inherit; /* match surrounding text (h3) */
+    text-decoration: none;
+}
+.c_permision a:hover{
+    text-decoration: underline;
+}

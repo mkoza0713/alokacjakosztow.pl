@@ -37,9 +37,9 @@ session_start();
             <div class="sheet_1">
                 <h4>Polityka prywatności opisuje zasady przetwarzania przez nas informacji na Twój temat, w tym danych osobowych oraz ciasteczek, czyli tzw. cookies.</h4>
                 <h5>1. Informacje ogólne</h5>
-                    <h6>Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: alokacjakosztow.pl
+                    <h6>Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem url: alokacjakoszto.com
         Operatorem serwisu oraz Administratorem danych osobowych jest: Mateusz Koza 33-340 Stary Sącz
-        Adres kontaktowy poczty elektronicznej operatora: administrator(at)alokacjakosztow.pl.
+        Adres kontaktowy poczty elektronicznej operatora: administrator(at)alokacjakoszto.com.
         Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.
         Serwis wykorzystuje dane osobowe w następujących celach:
         Prezentacja profil użytkownika innym użytkownikom

@@ -1,1 +1,1 @@
-# alokacjakosztow.pl
+# alokacjakoszto.com

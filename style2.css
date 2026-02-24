@@ -206,3 +206,11 @@ a{
 h1{
     font-size: 20px;
 }
+
+/* Ad unit styling (non-intrusive, centered) */
+.ad-unit{
+    margin: 12px auto;
+    max-width: 970px;
+    width: 100%;
+    text-align: center;
+}
